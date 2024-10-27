@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9038faa9-bd5b-4df8-ab35-ae1fbfac8936" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Apple_Division.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Bit_Strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Chessboard_And_Queens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Coin_Piles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Creating_Strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Digit_Queries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Gray_Code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Grid_Paths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Number_Spiral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Palindrome_Reorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Permutations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Tower_Of_Hanoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Trailing_Zeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Two_Knights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Two_Sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OtherFuncs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES_Problem_Set_Python/Increasing_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Increasing_Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES_Problem_Set_Python/Missing_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Missing_Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES_Problem_Set_Python/Repetitions.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Repetitions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSES_Problem_Set_Python/Weird_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Weird_Algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Digit_Queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Digit_Queries.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +41,7 @@
     "Python.C_1.executor": "Run",
     "Python.Coin_Piles.executor": "Run",
     "Python.Creating_Strings.executor": "Run",
+    "Python.Digit_Queries.executor": "Run",
     "Python.Gray_Code.executor": "Run",
     "Python.Increasing_Array.executor": "Run",
     "Python.Missing_Number.executor": "Run",
@@ -76,16 +57,20 @@
     "Python.sandbox.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Template"
+    "git-widget-placeholder": "Template",
+    "last_opened_file_path": "C:/Users/Ivan/Desktop/GIT/Competitive programming/CSES_Problem_Set_Python/Introductory Problems"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\Desktop\GIT\Competitive programming\CSES_Problem_Set_Python\Introductory Problems" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ivan\Desktop\GIT\Competitive programming\CSES_Problem_Set_Python\Introductory Problems" />
       <recent name="C:\Users\Ivan\Desktop\GIT\Competitive programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Apple_Division">
+  <component name="RunManager" selected="Python.Digit_Queries">
     <configuration name="Apple_Division" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Competitive programming" />
       <option name="ENV_FILES" value="" />
@@ -130,6 +115,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Digit_Queries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Competitive programming" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Digit_Queries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Gray_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Competitive programming" />
       <option name="ENV_FILES" value="" />
@@ -144,28 +151,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Gray_Code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Palindrome_Reorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Competitive programming" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSES_Problem_Set_Python/Introductory Problems/Palindrome_Reorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Digit_Queries" />
         <item itemvalue="Python.Apple_Division" />
         <item itemvalue="Python.Creating_Strings" />
         <item itemvalue="Python.sandbox" />
         <item itemvalue="Python.Gray_Code" />
-        <item itemvalue="Python.Palindrome_Reorder" />
       </list>
     </recent_temporary>
   </component>
