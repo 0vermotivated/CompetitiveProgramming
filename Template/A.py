@@ -1,9 +1,11 @@
-for _ in range(int(input())):
-    n = int(input())
-    mh = 0
-    mw = 0
-    for i in range(n):
-        h, w = map(int, input().split())
-        mh = max(h, mh)
-        mw = max(w, mw)
-    print((mh + mw) * 2)
+nm = lambda: int(input())
+lst = lambda: list(map(int, input().split()))
+nmm = lambda: list(map(int, input().split()))
+MOD = 10 ** 9 + 7
+
+def solve():
+    pass
+
+
+for _ in range(nm()):
+    solve()
