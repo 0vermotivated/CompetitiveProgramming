@@ -9,4 +9,3 @@ def solve():
 
 for _ in range(nm()):
     solve()
-
