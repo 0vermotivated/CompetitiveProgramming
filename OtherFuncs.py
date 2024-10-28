@@ -1,3 +1,6 @@
+MOD = 10 ** 9 + 7
+
+
 def CountToDict(x):
     sl = {}
     for i in x:
@@ -18,3 +21,21 @@ def GrayCode(n):
         rgc = gc[::-1]
         gc = ["0" + i for i in gc] + ["1" + i for i in rgc]
     return gc
+
+
+def BestSubstringSum(arr):
+    l = len(arr)
+    bind = [0, 0]
+    ind = [0, 0]
+    best, s = 0, 0
+    for i in range(l):
+        if arr[i] > s + arr[i]:
+            s = arr[i]
+            ind = [i, i + 1]
+        else:
+            s += arr[i]
+            ind[1] += 1
+        if best < s:
+            best = s
+            bind = ind.copy()
+    return best, bind

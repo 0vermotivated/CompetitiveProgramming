@@ -2,7 +2,7 @@ import time
 from SortingAlgorithms import*
 from random import*
 
-def checktime(x, arg):
+def ct(x, arg):
     st = time.time()
     x(arg)
     end = time.time()
