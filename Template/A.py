@@ -4,6 +4,7 @@ arri = lambda: list(map(int, input().split()))
 arrs = lambda: input().split()
 nmm = lambda: map(int, input().split())
 MOD = 10 ** 9 + 7
+INF = (2 ** 64) + 1
 
 def solve():
     #n = 200000
