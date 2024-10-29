@@ -8,8 +8,17 @@ MOD = 10 ** 9 + 7
 def solve():
     #n = 200000
     #arr = [random.randint(-1000000, 1000000) for i in range(n)]
-    pass
+    n = nm()
+    lst = [i + 1 for i in range(n)]
+    st = 1
+    while lst:
+        l = len(lst)
+        for i in range(st, len(lst), 2):
+            print(lst[i], end=" ")
+        lst = lst[abs(st - 1)::2]
+        if l % 2 == 1:
+            st = abs(st - 1)
 
 
-for _ in range(nm()):
+for _ in range(1):
     solve()

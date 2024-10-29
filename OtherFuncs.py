@@ -1,3 +1,4 @@
+import random
 MOD = 10 ** 9 + 7
 
 
@@ -39,3 +40,34 @@ def BestSubstringSum(arr):
             best = s
             bind = ind.copy()
     return best, bind
+
+
+
+def Rselect(arr, left, right, k):
+    if left == right:
+        return arr[left]
+    
+    pivot_index = Rselect_random_partition(arr, left, right)
+    length = pivot_index - left + 1
+    
+    if k == length:
+        return arr[pivot_index]
+    elif k < length:
+        return Rselect(arr, left, pivot_index - 1, k)
+    else: 
+        return Rselect(arr, pivot_index + 1, right, k - length)
+
+def Rselect_random_partition(arr, left, right):
+    pivot_index = random.randint(left, right)
+    arr[pivot_index], arr[right] = arr[right], arr[pivot_index]
+    return Rselect_partition(arr, left, right)
+
+def Rselect_partition(arr, left, right):
+    pivot = arr[right]
+    i = left
+    for j in range(left, right):
+        if arr[j] < pivot:
+            arr[i], arr[j] = arr[j], arr[i]
+            i += 1
+    arr[i], arr[right] = arr[right], arr[i]
+    return i
