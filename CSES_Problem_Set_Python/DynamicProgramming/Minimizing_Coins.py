@@ -7,9 +7,10 @@ MOD = 10 ** 9 + 7
 INF = (2 ** 64) + 1
 
 def solve():
-    #n = 200000
-    #arr = [random.randint(-1000000, 1000000) for i in range(n)]
-    pass
+    n, t = nmm()
+    lst = arri()
+    lst = sorted(lst, reverse=True)
+    r = [1]
 
 
 for _ in range(nm()):
